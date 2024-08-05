@@ -12,13 +12,13 @@ on:
         required: true
         default: 'registry.cn-beijing.aliyuncs.com'
       source_repo:
-        description: 'linkease/ddnsto'
+        description: ''
         required: true
-        default: ''
+        default: 'linkease/ddnsto'
       destination_repo:
-        description: 'gm_hub/gm_hub:ddnsto'
+        description: ''
         required: true
-        default: ''
+        default: 'gm_hub/gm_hub:ddnsto'
 
 jobs:
   copy:
